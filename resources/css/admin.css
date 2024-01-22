@@ -1,0 +1,57 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+tr {
+    font-size: 13px;
+}
+
+.dataTables_info,
+.dataTables_paginate {
+    font-size: 15px;
+}
+
+.image_style {
+    text-align: center;
+    position: relative;
+}
+
+
+.image_style img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image_style:hover img {
+    content: '';
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.4;
+
+
+}
+
+.text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+
+}
+
+
+#icon {
+    display: none;
+}
+
+.image_style:hover #icon {
+    display: flex;
+}
+
+.swal-title {
+    font-size: 22px !important;
+    color: black !important;
+
+}
